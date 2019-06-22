@@ -1,0 +1,16 @@
+{
+  "name": "landing-page-with-modal-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://mdrokun.github.io/landing-page-with-modal-form",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
