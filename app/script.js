@@ -28,10 +28,10 @@ signupX.addEventListener('click', () => {
 
 window.addEventListener("DOMContentLoaded", function (e) {
 
-    var stage = document.getElementById("stage");
-    var fadeComplete = function (e) { stage.appendChild(arr[0]); };
-    var arr = stage.getElementsByTagName("a");
-    for (var i = 0; i < arr.length; i++) {
+    const stage = document.getElementById("stage")
+    const fadeComplete = function (e) { stage.appendChild(arr[0]); };
+    const arr = stage.getElementsByTagName("a");
+    for (let i = 0; i < arr.length; i++) {
         arr[i].addEventListener("animationend", fadeComplete, false);
     }
 
